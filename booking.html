@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="navbar3">
+
+        <div class="containerr c-about">
+            <ul>
+                <li>
+                    <img class="logo topnav" src="img/logo-white.png" alt="">
+                </li>
+            </ul>
+            <ul class="nav topnav">
+                <li>
+                    <a href="Home.html">Things to do</a>
+                </li>
+                <li>
+                    <a href="planYourTrip.html">Plan your trip</a>
+                </li>
+                <li>
+                    <a href="about.html">About </a>
+                </li>
+                <li>
+                    <a href="TipsTrick.html">Tips and Trick</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div>
+            <div>
+
+            </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div> -->
+
+    </div>
+
+    <div id="navbar-stick">
+        <div class="containerr-stick">
+            <ul>
+                <li>
+                    <img class="logo topnav" src="img/logo-white.png" alt="">
+                </li>
+            </ul>
+            <ul class="nav topnav">
+                <li>
+                    <a href="Home.html">Things to do</a>
+                </li>
+                <li>
+                    <a href="PlanYourTrip.html">Plan your trip</a>
+                </li>
+                <li>
+                    <a href="About.html">About </a>
+                </li>
+                <li>
+                    <a href="TipsTrick.html">Tips and Trick</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- <div class="bg">
+        <img src="img/unnamed.jpg" alt="">
+    </div> -->
+    <div class="flight-class">
+        <!-- ksdlsbr
+        <br><br><br><br><br><br> -->
+    </div>
+    <div class="flight-booking">
+        <p>Flight Details</p><br>
+        <form class="booking-form">
+            <label for="Name">Name</label>
+            <input type="text-flight" id="name" name="firstname" placeholder="Your name..">
+
+            <label for="Passport">Passport Number / Identity Number</label>
+            <input type="text-flight" id="Passport" name="Passport"
+                placeholder="Enter your passport number or identity number ">
+
+            <label for="Email">Email</label>
+            <input type="text-flight" id="lname" name="lastname" placeholder="Email">
+
+            <label for="From">From</label>
+            <input type="text-flight" id="from" name="from">
+
+            <label for="To">To</label>
+            <input type="text-flight" id="to" name="to">
+
+            <label for="Departure">Departure Date</label>
+            <input type="date" id="Departure" name="Departure">
+
+            <label for="Departure">Departure Date</label>
+            <input type="date" id="Departure" name="Departure">
+
+            <label for="passenger">Passeger</label>
+            <select id="passenger" name="passenger">
+                <option value="adult">Adult</option>
+                <option value="child">Child</option>
+                <option value="infant">Infant</option>
+            </select>
+
+            <label for="amount">Amount</label>
+            <input type="text-flight" id="amount" name="amount">
+
+            <input onclick="booking()" type="submit-flight" value="Submit">
+        </form>
+    </div>
+</body>
+
+<script>
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("navbar-stick").style.top = "0px";
+        } else {
+            document.getElementById("navbar-stick").style.top = "-90px";
+        }
+    }
+
+    function booking() {
+        alert('Your data is being processed')
+    }
+</script>
+
+</html>
