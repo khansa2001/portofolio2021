@@ -1,0 +1,940 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
+
+
+*{margin: 0;
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    background: url(img/Raja-Ampat-Wayag-Diving.jpg) no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+
+    /* backdrop-filter: opacity(20%); */
+    /* height: 10vh; */
+    /* background-position: left; */
+}
+
+#navbar-stick{
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
+    /* margin-top: -80px; */
+    /* z-index: 99 !important;  */
+    z-index: 3;
+}
+
+.containerr-stick {
+    display: flex;
+    background-color: rgb(27, 93, 155);
+    /* background-image: url(img/Raja-Ampat-Wayag-Diving.jpg); */
+}
+.containerr-stick ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.containerr-stick ul li a{
+    margin-right: 60px;
+    color: #ffffff;
+    font-size: 2.3vh;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.containerr-stick ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.logo{
+    width: 130px;
+    height: 70px;
+}
+
+.containerr {
+    display: flex;
+    background-color: rgba(0, 0, 0, .2);
+    /* background-image: url(img/Raja-Ampat-Wayag-Diving.jpg); */
+}
+
+
+
+.topnav{    
+    padding: 2%;   
+    margin: auto;
+}
+
+.containerr ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.containerr ul li a{
+    margin-right: 60px;
+    color: #ffffff;
+    font-size: 2.3vh;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.containerr ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.nav .a{
+    padding: 0% 10%;
+    display: block;
+}
+
+.stext11{
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 18px white;
+    /* top: 30%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%);  */
+    letter-spacing: 25px; 
+    font-size: 3vw;
+}
+
+.stext12{
+    color: white;
+    text-align: center;
+    /* top: 35%;
+    left: 14%; */
+    text-shadow: 2px 2px 5px white;
+    font-family: 'Dancing Script', cursive; 
+    font-size: 10vw;
+}
+
+.title .p1 {
+    color:  rgb(27, 93, 155);
+    font-size: 3vw;
+    margin: 2% 2%;
+}
+
+.part2{
+    margin-bottom: 5%;
+    padding: 1% 0%;
+    /* opacity: 0.2; */
+    /* background-color: rgb(240, 240, 240); */
+}
+.part2 img{
+    position: absolute;
+    /* left: 0;
+    top: 0;
+    width: 100%;*/
+    height: auto; 
+    opacity: 0.1;
+    
+}
+
+
+.part2 p button #banner{
+    position: relative;
+    /* z-index: 2; */
+}
+.part2 p{
+    color: rgb(44, 43, 43);
+    margin: 2% 2%;
+}
+
+.part2 .buttonthings{
+    float: right;
+    width: 10%;
+    height: 30%;
+    font-size: 2vmin;
+    padding: 1%;
+    margin: 2% 5%; 
+    background-color: transparent;
+    border: rgb(187, 14, 14) solid 1px;
+    color: rgb(187, 14, 14);
+}
+
+.part2 .buttonthings:hover{
+    background-color: rgb(187, 14, 14);
+    color: white;
+    /* width: 2000px; */
+}
+
+#banner{
+    position: relative;
+    width: 20000px;
+    height: 490px;
+    margin:10px auto;
+    overflow: hidden;
+}
+#banner ul{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+#banner li{
+    float: left;
+    width: 430px;
+    height: 470px;
+    list-style: none;
+    /* margin: 0% 0.5%; */
+    margin: 0px 10px;
+}
+#banner li .img{
+    width: 430px;
+    height: 470px;
+    position: relative;
+    filter: brightness(70%);
+}
+
+#banner li .img:hover{
+    filter: brightness(100%);
+    width: 435px;
+    height: 475px;
+    transition: all 0.2s linear;
+    transform: scale(1.01);
+    /* background-image: linear-gradient( #bc4e9c, #bc4e9c),url(img/2017_08_02_30495_1501654303._large.jpg); */
+}
+
+#banner p{
+    position: absolute;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 2.8vw;
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+#banner button{
+    position: absolute;
+    top: 43%;
+    padding: 10px 20px;
+    /* border-radius: 10%; */
+    background-color: white;
+    color: rgb(187, 14, 14);
+    border: 1px white solid;
+    font-size: 1.1vw;
+    font-family: 'Lora', serif;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+}
+
+#banner button:hover{
+    background-color: rgb(187, 14, 14);
+    color: white;
+    border: 1px transparent solid;
+    padding: 14px 24px;
+}
+
+
+
+.part3 video{
+    width: 90%;
+    height:"auto";
+    /* max-width: 1000px; */
+    /* padding: 5%; */
+    margin: auto 2%;
+}
+.part3 button{
+    width: 15%;
+    height: 30%;
+    font-size: 2vmin;
+    padding: 1%;
+    margin: 3% 5%; 
+    background-color: transparent;
+    border: rgb(187, 14, 14) solid 1px;
+    color: rgb(187, 14, 14);
+    cursor: pointer;
+}
+
+.part3 button:hover{
+    background-color: rgb(187, 14, 14);
+    color: white;
+}
+
+.part44 .p1{
+    font-size: 2vw;
+    margin-left: 1%;
+}
+
+.part4{
+    display: flex;
+    /* margin-left: 2%; */
+    /* margin: auto;
+    width: 95%; */
+    justify-content: center;
+    /* margin-top: 5% ; */
+}
+
+.part4 .a{
+    width: 250px;
+    /* max-width: 250px;
+    max-height: 300px;
+    min-height: 300px; */
+    height: 300px;
+    margin: 10px;
+    position: relative;
+}
+
+.a:hover{
+    box-shadow: 5px 3px 30px rgb(149, 149, 149);
+
+}
+
+.part4 .a .img{
+    width: 250px;
+    height: 300px;
+}
+
+.part4 .a .img:hover{
+    transition: all 0.2s linear;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    transform: scale(1.03);
+}
+
+
+.part4 .a p{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    font-size: 1.5vw;
+    color: white;
+}
+
+/* .part4 .a:hover{
+    font-size: 2vw;
+} */
+
+.part4 button{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+    font-family: 'Lora', serif;
+    width: 90%;
+    font-size: 1vw;
+    background-color: rgb(187, 14, 14);
+    color: white;
+    border: 1px transparent solid;
+    cursor: pointer;
+
+}
+
+.part4 .a button:hover{
+    background-color: white;
+    border: 1px white solid;
+    color: rgb(187, 14, 14);
+    transition: all 0.2s linear;
+    width: 95%;
+}
+
+main{
+    margin: 5% 0% 0%;
+}
+
+.column{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(27, 93, 155);
+}
+
+article{
+    float: left;
+}
+
+aside{
+    float: right;
+}
+
+/* .view{
+    width: 100%;
+    height: auto;
+    background-color: rgb(27, 93, 155);
+} */
+.view{
+    padding: 15% 0%;
+}
+#today {
+    width: 100%;
+    height: auto;
+    /* border: 10px solid black; */
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 2%;
+    color: white;
+}
+
+#viewers{
+    width: 100%;
+    height: auto;
+    /* border: 10px solid black; */
+    text-align: center;
+    font-size: 4vw;
+    padding-bottom: 2%;
+    color: white;
+}
+
+#sub{
+    width: 100%;
+    height: auto;
+    /* border: 10px solid black; */
+    text-align: center;
+    font-size: 4vw;
+    padding-bottom: 2%;  
+    color: white;
+}
+
+
+
+/* .inp{
+    width: 60%;
+    height: 200%;
+} */
+/* form{
+    padding: 20%;
+} */
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(187, 14, 14);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1vw;
+    font-family: 'Lora', serif;
+}
+  
+input[type=submit]:hover {
+    background-color: white;
+    color: rgb(187, 14, 14);
+    border: 1px rgb(187, 14, 14) solid;
+}
+  
+.div {
+    /* border-radius: 5px; */
+    background-color:  rgb(27, 93, 155);
+    padding: 20px;
+    color: white;
+}
+
+#join-us{
+    text-align: center;
+    width: 100%;
+    /* width: 200px;
+    height: 200px; */
+    background: transparent;
+    display: none;
+    font-size: 3vw;
+    color: white;
+}
+
+/* footer{
+    display: flex;
+} */
+/* .footer{
+    width: 50%;
+} */
+
+.info{
+    /* width: 30%; */
+    background-color: aqua;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.foot{
+    list-style: none;
+}
+
+.logo-footer{
+    width: 150px;
+    height: 90px;
+    padding: 0% 15%;
+}
+
+footer{
+    height: 350px;
+    background-color: white;
+    position: relative;
+    /* margin-top: 0px; */
+}
+
+footer .footer-content {
+    display: flex;
+    border: 1px transparent solid;
+    height: 280px;
+}
+
+footer .footer-content .section{
+    flex: 1;
+    border: 1px transparent solid;
+    margin-top: 1%;
+    
+}
+
+.sosmed{
+    margin-left: 28%;
+    padding-left: 5% ;
+    font-size: 1.2vw;
+}
+
+.section p{
+    font-size: 1.5vw;
+}
+
+.follow-p{
+    text-decoration: none;
+    color: black;
+    padding-top: 1%;
+}
+
+/* .follow a{
+    margin-top: 5%;
+} */
+
+.inform .follow-p .a{
+    font-size: 1.2vw;
+    color: black;
+    margin-top: 6px;
+}
+
+footer .footer-bottom{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* bottom: 0%;
+    left: 0%; */
+    bottom: 0%;
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+/* -------------PLANYOURTRIP---------------- */
+
+.navbar2{
+    background: url(img/samolet-airplane-passazhirskiy.jpg) no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+}
+
+.second{
+    font-family: 'Lora', serif;
+
+}
+
+.title-1{
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 3%;
+    color: rgb(82, 82, 82);
+
+}
+
+.title-2{
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(27, 93, 155);
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.content-c{
+    width: 50%;
+    margin-top: 5%;
+}
+
+.content img{
+    width: 65%;
+    height: auto;
+    float: right;
+    /* margin-left: 200px ; */
+}
+
+.content-c p{
+    font-size: 1.8vw;
+}
+
+.content-c div{
+    font-size: 1.4vw;
+    padding-right: 17%;
+    color: rgb(70, 70, 70);
+}
+
+.content-c button{
+    padding: 2% 5%;
+    font-size: 1.2vw;
+    margin-top: 2%;
+    color: white;
+    background-color: rgb(187, 14, 14);
+    border: transparent;
+    border-radius: 5%;
+}
+
+.content-c button:hover{
+    color: rgb(187, 14, 14);
+    background-color: white;
+    border: 1px rgb(187, 14, 14) solid;
+}
+
+.plan-word{
+    padding: 2% 2%;
+
+}
+
+.discount{
+    width: 20%;
+    height: 25%;
+    width: 20%;
+    height: 25%;
+    font-size: 2.5vmin;
+    text-align: center;
+    padding: 1%;
+    margin: 5% 0% 0%;
+    position: relative; 
+    background-image: linear-gradient(to right, #FFB75E, #ED8F03);
+    border: transparent solid 1px;
+    color: white;
+    animation: discount 8s linear infinite alternate ;
+    /* animation: discount 9s linear 0.2s forwards  running; */
+}
+
+@keyframes discount{
+    from {background:#ED8F03; left: 15%}
+    to {background: #fcbf74; left: 67%;}
+}
+
+.discount:hover{
+    animation: discount 8s linear infinite alternate ;
+}
+
+
+.feature {
+    display: flex;
+    width: 100%;
+    border: 1px transparent solid;
+    /* border-bottom: 1px rgb(205, 205, 205) solid ; */
+    overflow: auto;
+    /* margin-bottom: 5%; */
+    margin-top: 10% ;
+    /* padding-bottom: 5%; */
+    font-family: 'Lora', serif;
+
+}
+
+.feature .feature-content {
+    flex: 1;
+    border: 1px transparent solid;
+    /* padding-left: 60px; */
+    justify-content: center;
+    
+}
+
+
+.feature-icon{
+    width: 70px;
+    height: auto;
+}
+
+.feature a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color:  rgb(187, 14, 14);
+}
+
+.feature a:hover{
+    /* color: rgb(27, 93, 155); */
+    color: rgb(255, 0, 0);
+}
+
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+/* -------------BOOKINGBOOKING---------------- */
+
+
+/* .container-about {
+    display: flex;
+    background-color: rgb(27, 93, 155);
+} */
+.c-about{
+    background-color: rgb(156, 21, 39);
+}
+
+.flight-class{
+    background: url(img/49d8719979525973bd938a032c9782cb.jpg) no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+    /* border: 1px #ccc solid; */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    position: relative;
+    width: 1500px;
+    /* width: 1000px; */
+    height: 1200px;
+    overflow: hidden;
+
+}
+/* .flight-class{
+    background: url(img/49d8719979525973bd938a032c9782cb.jpg) no-repeat;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);} */
+.flight-booking{
+    width: 40%;
+    padding: 3%;
+    /* border: 1px rgb(51, 7, 7) solid; */
+    /* margin: 0% 25%; */
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;   
+    font-family: 'Cabin', sans-serif;
+}
+
+.flight-booking p{
+    font-size: 2.5vw;
+}
+
+input[type=text-flight], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 1vw;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 1vw;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit-flight] {
+    width: 100%;
+    background-color: rgb(187, 14, 14);
+    color: white;
+    padding: 14px 0px;
+    margin: 8px 0;
+    border: none;
+    font-size: 1.3vw;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+    text-align: center;
+    transition: all 0.5s ease;
+
+}
+  
+input[type=submit-flight]:hover {
+    background-color: white;
+    color: rgb(187, 14, 14);
+    border: 1px rgb(187, 14, 14) solid;
+}
+
+
+
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+/* -------------ABOUT---------------- */
+
+
+.navbar4{
+    background: url(img/Reynan-tutup_lawang_sigotaka-palembang.jpg) no-repeat;
+    background-size: cover;
+}
+
+.about-indo{
+    font-family: 'Lora', serif;
+    border-bottom: 1px rgb(205, 205, 205) solid ;
+
+}
+
+.about-indo .tilt{
+    text-align: center;
+    font-size: 3.5vw;
+    color: rgb(27, 93, 155);
+    padding: 5% 20% 0%;
+    font-weight: bold;
+
+}
+
+.intro{
+    font-size: 2vw;
+    color: rgb(92, 91, 91);
+    padding: 3% 17%;
+    text-align: center;
+}
+
+.intro-2{
+    font-size: 1.3vw;
+    padding: 0% 10%;
+    color: rgb(95, 95, 95);
+    -webkit-column-count: 2;
+    column-count: 2; 
+    column-rule-style: dashed;
+    column-rule-width: 2px;
+    column-rule-color:rgb(187, 14, 14);
+    column-gap: 20px;
+}
+
+.one{
+    border: 1px #ccc solid;
+    margin-top: 10%;
+    margin: 5% 10%;
+    padding: 3% 0% 1%;
+}
+
+.one:hover{
+    box-shadow: 5px 10px 18px #ccc;
+}
+
+.one a{
+    float: right;
+    text-decoration: none;
+    color: rgb(187, 14, 14);
+    padding: 4% 3%;
+}
+
+.about-culture{
+    display: flex;
+}
+
+.nias-img{
+    width: 50%;
+    /* background-color: crimson; */
+}
+
+.nias-img img{
+    width: 80%;
+    margin-top: 3%;
+}
+
+.nias-text{
+    width: 50%;
+    padding-right: 3%;
+    padding-left: 4%;
+    color: rgb(83, 82, 82);
+
+    /* padding-top: 8%;
+    padding-right: 12%; */
+}
+
+.nias-text p{
+    color: rgb(27, 93, 155);
+    font-size: 2.2vw;
+}
+
+.one .read-right{
+    float: left;
+    padding: 4%;
+}
+
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+/* -------------TIPSTRICK---------------- */
+
+.navbar5{
+    /* background: linear-gradient( #bc4e9c, #bc4e9c),url(img/2017_08_02_30495_1501654303._large.jpg);; */
+    background: url(img/167144829.jpg) no-repeat;
+    background-size: cover;
+    /* filter: brightness(90%); */
+}
+
+.title-tips{
+    font-size: 6vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+    text-shadow: 2px 2px 18px white;
+}
+
+.tips-intro{
+    border-bottom: 1px transparent solid ;
+}
+
+.row-tips{
+    padding: 5%;
+    border-bottom: 1px rgb(205, 205, 205) solid ;
+}
